@@ -2,6 +2,7 @@
 
 #!desc=下厨房去广告
 
+[MITM]
 hostname = %APPEND% *.xiachufang.com
 
 [URL Rewrite]
