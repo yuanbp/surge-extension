@@ -2,6 +2,9 @@
 
 #!desc=波点音乐去广告
 
+[MITM]
+hostname = %APPEND% *.kuwo.cn, *.qq.cn, *.tencentmusic.com, *.gdtimg.com, *.tfogc.com
+
 [URL Rewrite]
 
 ^https?:\/\/bd-api\.kuwo\.cn\/api\/service\/resource\/musicResource\/.+ - reject
@@ -22,7 +25,7 @@
 
 ^https?:\/\/adsmind\.gdtimg\.com.* - reject
 
-^https?:\/\/.*\.rdt\.tfog\c.com.* - reject
+^https?:\/\/.*\.rdt\.tfogc.com.* - reject
 
 ^https?:\/\/tmead\.y\.qq\.com.* - reject
 
