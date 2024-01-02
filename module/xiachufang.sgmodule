@@ -2,6 +2,8 @@
 
 #!desc=下厨房去广告
 
+hostname = %APPEND% *.xiachufang.com
+
 [URL Rewrite]
 ^https?:\/\/api\.xiachufang\.com\/v2\/homepage1810\/init_page\.json.* _ reject
 ^https?:\/\/api\.xiachufang\.com\/v2\/ad\/.* _ reject
