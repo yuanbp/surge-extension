@@ -1,1 +1,9 @@
+#!name=下厨房
 
+#!desc=下厨房去广告
+
+[URL Rewrite]
+^https?:\/\/api\.xiachufang\.com\/v2\/homepage1810\/init_page\.json.* _ reject
+^https?:\/\/api\.xiachufang\.com\/v2\/ad\/.* _ reject
+^https?:\/\/api\.xiachufang\.com\/v2\/ad\/lookup_hybrid_ad_by_slot_name\.json _ reject
+^https?:\/\/track\.xiachufang\.com/action/ad_impression\.gif.*  _ reject
