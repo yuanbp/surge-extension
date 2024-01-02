@@ -6,8 +6,8 @@
 hostname = %APPEND% *.xiachufang.com
 
 [URL Rewrite]
-^https?:\/\/api\.xiachufang\.com\/v2\/homepage1810\/init_page\.json.* - reject
-^https?:\/\/api\.xiachufang\.com\/v2\/ad\/.* - reject
-^https?:\/\/api\.xiachufang\.com\/v2\/ad\/lookup_hybrid_ad_by_slot_name\.json - reject
-^https?:\/\/track\.xiachufang\.com/action/ad_impression\.gif.*  - reject
-^https?:\/\/api\.xiachufang\.com\/v2\/config\/get\.json - reject
+^https?:\/\/api\.xiachufang\.com\/v2\/homepage1810\/init_page\.json.* _ reject
+^https?:\/\/api\.xiachufang\.com\/v2\/ad\/.* _ reject
+^https?:\/\/api\.xiachufang\.com\/v2\/ad\/lookup_hybrid_ad_by_slot_name\.json _ reject
+^https?:\/\/track\.xiachufang\.com/action/ad_impression\.gif.*  _ reject
+^https?:\/\/api\.xiachufang\.com\/v2\/config\/get\.json _ reject
