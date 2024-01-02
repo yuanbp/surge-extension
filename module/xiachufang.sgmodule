@@ -10,3 +10,4 @@ hostname = %APPEND% *.xiachufang.com
 ^https?:\/\/api\.xiachufang\.com\/v2\/ad\/.* - reject
 ^https?:\/\/api\.xiachufang\.com\/v2\/ad\/lookup_hybrid_ad_by_slot_name\.json - reject
 ^https?:\/\/track\.xiachufang\.com/action/ad_impression\.gif.*  - reject
+^https?:\/\/api\.xiachufang\.com\/v2\/config\/get\.json - reject
