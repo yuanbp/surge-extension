@@ -7,28 +7,28 @@ hostname = %APPEND% *.kuwo.cn, *.qq.cn, *.tencentmusic.com, *.gdtimg.com, *.tfog
 
 [URL Rewrite]
 
-^https?:\/\/bd-api\.kuwo\.cn\/api\/service\/resource\/musicResource\/.+ _ reject
+^https?://bd-api\.kuwo\.cn/api/service/resource/musicResource/.+ - reject
 
-^https?:\/\/bodiancdn\.kuwo\.cn\/.+\.mp4 _ reject
+^https?://bodiancdn\.kuwo\.cn/.+\.mp4 - reject
 
-^https?:\/\/bd-api\.kuwo\.cn\/api\/service\/resource\/view\?uid _ reject
+^https?://bd-api\.kuwo\.cn/api/service/resource/view\?uid - reject
 
-^https?:\/\/bd-api\.kuwo\.cn\/api\/service\/music\/recommendList\?uid _ reject
+^https?://bd-api\.kuwo\.cn/api/service/music/recommendList\?uid - reject
 
-^https?:\/\/bd-api\.kuwo\.cn\/api\/service\/advert.* _ reject
+^https?://bd-api\.kuwo\.cn/api/service/advert.* - reject
 
-^https?:\/\/ad\.tencentmusic\.com.* _ reject
+^https?://ad\.tencentmusic\.com.* - reject
 
-^https?:\/\/tmeadcomm\.y\.qq\.com\/maproxy\/getAd.* -reject
+^https?://tmeadcomm\.y\.qq\.com/maproxy/getAd.* -reject
 
-^https?:\/\/us\.l\.qq\.com.* _ reject
+^https?://us\.l\.qq\.com.* - reject
 
-^https?:\/\/adsmind\.gdtimg\.com.* _ reject
+^https?://adsmind\.gdtimg\.com.* - reject
 
-^https?:\/\/.*\.rdt\.tfogc.com.* _ reject
+^https?://.*\.rdt\.tfogc.com.* - reject
 
-^https?:\/\/tmead\.y\.qq\.com.* _ reject
+^https?://tmead\.y\.qq\.com.* - reject
 
-^https?:\/\/p\.l\.qq\.com.* _ reject
+^https?://p\.l\.qq\.com.* - reject
 
-^https?:\/\/adstats\.tencentmusic\.com.* _ reject
+^https?://adstats\.tencentmusic\.com.* - reject
