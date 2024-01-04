@@ -32,3 +32,5 @@ hostname = %APPEND% *.kuwo.cn, *.qq.cn, *.tencentmusic.com, *.gdtimg.com, *.tfog
 ^https?://p\.l\.qq\.com.* - reject
 
 ^https?://adstats\.tencentmusic\.com.* - reject
+
+^https?://bd-api\.kuwo\.cn/api/service/conf/all.* - REJECT
